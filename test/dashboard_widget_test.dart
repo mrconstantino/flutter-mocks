@@ -7,7 +7,7 @@ import 'matchers.dart';
 void main() {
 
   group('When Dashboard is opened', (){
-    testWidgets('Should display the main image',
+    testWidgets('Should display the maifluttern image',
             (WidgetTester tester) async {
           await tester.pumpWidget(MaterialApp(home: Dashboard()));
           final mainImage = find.byType(Image);
